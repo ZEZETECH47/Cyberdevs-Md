@@ -1,0 +1,33 @@
+    "ANTI_DELETE_MESSAGE": {
+      "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "ANTI_CALL": {
+      "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
+      "value": "off",
+      "required": false
+    },
+    "AUTO_BLOCK": {
+      "description": "Type true if you want bot to automatically block those who spam your dm",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REACTION": {
+      "description": "Set 'yes' to enable bot reactions to messages in private chats",
+      "value": "no",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
