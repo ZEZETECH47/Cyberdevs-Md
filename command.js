@@ -1,20 +1,19 @@
-var commands = [];
-
-function cmd(info, func) {
-    var data = info;
-    data.function = func;
-    if (!data.dontAddCommandList) data.dontAddCommandList = false;
-    if (!info.desc) info.desc = '';
-    if (!data.fromMe) data.fromMe = false;
-    if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "Not Provided";
-    commands.push(data);
-    return data;
-}
-module.exports = {
-    cmd,
-    AddCommand:cmd,
-    Function:cmd,
-    Module:cmd,
-    commands,
-};
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Bmb website">
+	  <meta name="keywords" content="bmb tech Web">
+  	<meta name="author" content="devbmb bmbtz">
+    <title>©bmb tech Whatsapp bot</title>
+    <link rel="stylesheet" href="./lib/style.css">
+    <link rel="icon" href="media/favicon.png">
+  
+    <section id="showcase">
+      <div class="container">
+      				<div class="dark">
+        <h1 class="dark">B.M.B-TECH DEPLOYED SUCCESSFULLY</h1>
+         <p class="dark"><a href="https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z"><h1>Follow Wachnnel For Updates</h1></a></p>
+        </for     </div>
+  </div>
+  
